@@ -1,0 +1,163 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "642A4B7A",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "6793815451",
+      "localizations" : [
+        {
+          "description" : "Todas las funciones y futuras actualizaciones.",
+          "displayName" : "Acceso de por vida",
+          "locale" : "es_ES"
+        },
+        {
+          "description" : "Débloquez toutes les fonctions, mises à jour incluses.",
+          "displayName" : "Accès à vie",
+          "locale" : "fr"
+        },
+        {
+          "description" : "Alle Funktionen dauerhaft freischalten, inkl. Updates.",
+          "displayName" : "Dauerhafter Zugriff",
+          "locale" : "de"
+        },
+        {
+          "description" : "Unlock all features forever with future updates.",
+          "displayName" : "Lifetime Access",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "一度購入すれば、全機能を永久に利用できます。",
+          "displayName" : "永久アクセス",
+          "locale" : "ja"
+        },
+        {
+          "description" : "一次购买，永久解锁所有功能，持续获得后续版本更新。",
+          "displayName" : "永久使用",
+          "locale" : "zh_Hans"
+        },
+        {
+          "description" : "一次購買，永久解鎖所有功能，持續獲得後續更新。",
+          "displayName" : "永久使用",
+          "locale" : "zh_Hant"
+        },
+        {
+          "description" : "한 번 구매로 모든 기능을 영구 이용하고 업데이트도 제공합니다.",
+          "displayName" : "평생 이용",
+          "locale" : "ko"
+        }
+      ],
+      "productID" : "net.weeko.focus.lifetime",
+      "referenceName" : "Lifetime",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "6792033352",
+    "_askToBuyEnabled" : false,
+    "_billingGracePeriodEnabled" : false,
+    "_billingIssuesEnabled" : false,
+    "_developerTeamID" : "N64F2TB2PY",
+    "_disableDialogs" : false,
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 806985066.72217906,
+    "_locale" : "en_US",
+    "_renewalBillingIssuesEnabled" : false,
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+
+    ],
+    "_timeRate" : 0
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "22257990",
+      "localizations" : [
+
+      ],
+      "name" : "Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6793816430",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Toutes les fonctions Pro avec mises à jour.",
+              "displayName" : "Pro annuel",
+              "locale" : "fr"
+            },
+            {
+              "description" : "Todas las funciones Pro con actualizaciones.",
+              "displayName" : "Pro anual",
+              "locale" : "es_ES"
+            },
+            {
+              "description" : "Alle Pro-Funktionen mit Updates pro Jahr.",
+              "displayName" : "Pro jährlich",
+              "locale" : "de"
+            },
+            {
+              "description" : "Unlock all Pro features yearly with updates.",
+              "displayName" : "Yearly Pro",
+              "locale" : "en_GB"
+            },
+            {
+              "description" : "按年解锁全部 Pro 功能，持续获得后续更新。",
+              "displayName" : "年度 Pro",
+              "locale" : "zh_Hans"
+            },
+            {
+              "description" : "按年解鎖所有 Pro 功能，持續獲得更新。",
+              "displayName" : "年度 Pro",
+              "locale" : "zh_Hant"
+            },
+            {
+              "description" : "年額で全Pro機能を利用、継続アップデート。",
+              "displayName" : "年間Pro",
+              "locale" : "ja"
+            },
+            {
+              "description" : "매년 모든 Pro 기능과 업데이트를 이용하세요.",
+              "displayName" : "연간 Pro",
+              "locale" : "ko"
+            }
+          ],
+          "productID" : "net.weeko.focus.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Weeko Focus Pro Yearly",
+          "subscriptionGroupID" : "22257990",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}
