@@ -1,4 +1,9 @@
 "weeko_application_settings_application" = "Застосунок";
+"weeko_appearance_mode_title" = "Оформлення";
+"weeko_appearance_mode_subtitle" = "Виберіть візуальний стиль інтерфейсу: системний, світлий або темний.";
+"weeko_appearance_mode_system" = "Системний";
+"weeko_appearance_mode_light" = "Світлий";
+"weeko_appearance_mode_dark" = "Темний";
 "weeko_application_settings_open_at_login" = "Відкрити під час входу";
 "weeko_application_settings_open_at_login_subtitle" = "Автоматично запускається після входу та залишається доступною на панелі меню.";
 "weeko_application_settings_show_dock_icon" = "Показувати піктограму Dock";

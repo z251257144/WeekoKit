@@ -133,3 +133,11 @@
 "subscription.feedback.restore_failed" = "Aankopen konden niet worden hersteld. Probeer het later opnieuw.";
 "subscription.legal.terms" = "Gebruiksvoorwaarden";
 "subscription.legal.privacy" = "Privacybeleid";
+
+/* Appearance Mode */
+"weeko_appearance_mode_title" = "Uiterlijk";
+"weeko_appearance_mode_subtitle" = "Stelt de visuele stijl van de interface in. U kunt de systeeminstelling volgen of kiezen tussen lichte en donkere modus.";
+"weeko_appearance_mode_system" = "Volg systeem";
+"weeko_appearance_mode_light" = "Licht";
+"weeko_appearance_mode_dark" = "Donker";
+

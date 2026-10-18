@@ -99,6 +99,7 @@ struct DemoComponentsPage: View {
 
 struct DemoSettingsPage: View {
   @StateObject private var store: WeekoSettingsStore
+  @EnvironmentObject private var appearanceModeStore: WeekoAppearanceModeStore
 
   init() {
     _store = StateObject(
@@ -109,7 +110,7 @@ struct DemoSettingsPage: View {
   }
 
   var body: some View {
-    WeekoSettingsPage(store: store)
+    WeekoSettingsPage(store: store, appearanceModeStore: appearanceModeStore)
   }
 }
 

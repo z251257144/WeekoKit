@@ -136,3 +136,11 @@
 "subscription.feedback.restore_failed" = "Käufe konnten nicht wiederhergestellt werden. Bitte versuche es später erneut.";
 "subscription.legal.terms" = "Nutzungsbedingungen";
 "subscription.legal.privacy" = "Datenschutzrichtlinie";
+
+/* Appearance Mode */
+"weeko_appearance_mode_title" = "Aussehen";
+"weeko_appearance_mode_subtitle" = "Legt das visuelle Erscheinungsbild der Benutzeroberfläche fest. Sie können dem System folgen oder zwischen Hell- und Dunkelmodus wählen.";
+"weeko_appearance_mode_system" = "Systemeinstellung folgen";
+"weeko_appearance_mode_light" = "Hell";
+"weeko_appearance_mode_dark" = "Dunkel";
+

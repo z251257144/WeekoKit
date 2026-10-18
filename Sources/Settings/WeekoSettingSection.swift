@@ -1,6 +1,9 @@
 import SwiftUI
 
 public struct WeekoSettingSection<Content: View, Footer: View>: View {
+  @Environment(\.weekoTheme) private var theme
+  @Environment(\.weekoVisualEnhancement) private var enhancement
+  
   private let title: String
   private let icon: String
   private let content: Content
@@ -42,7 +45,15 @@ public struct WeekoSettingSection<Content: View, Footer: View>: View {
       content
     }
     .frame(maxWidth: .infinity, alignment: .leading)
+    .background(sectionBackground)
+    .clipShape(RoundedRectangle(cornerRadius: theme.radiusLarge))
     .listRowInsets(EdgeInsets(top: 1, leading: 10, bottom: 1, trailing: 10))
+  }
+  
+  @ViewBuilder
+  private var sectionBackground: some View {
+    Color.clear
+      .weekoShadow(theme.shadowSmall)
   }
 
   private var sectionHeader: some View {
@@ -50,8 +61,8 @@ public struct WeekoSettingSection<Content: View, Footer: View>: View {
       .font(.system(size: WeekoSettingMetrics.titleFontSize, weight: .bold))
       .lineLimit(1)
       .minimumScaleFactor(0.86)
-      .foregroundStyle(.secondary)
-      .padding(.bottom, 4)
+      .foregroundStyle(theme.contentSecondary)
+      .padding(.bottom, theme.spacingStack)
   }
 }
 

@@ -4,6 +4,19 @@ import SwiftUI
 private final class DemoBorderlessWindow: NSWindow {
   override var canBecomeKey: Bool { true }
   override var canBecomeMain: Bool { true }
+  
+  override func mouseDown(with event: NSEvent) {
+    let locationInWindow = event.locationInWindow
+    let windowHeight = frame.height
+    
+    // 如果点击在顶部 84pt 区域（标题栏+部分内容区），触发拖动
+    // 参考 WeekoShot 的实现方式
+    if locationInWindow.y > windowHeight - 84 {
+      performDrag(with: event)
+    } else {
+      super.mouseDown(with: event)
+    }
+  }
 }
 
 @MainActor

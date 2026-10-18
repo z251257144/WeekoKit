@@ -1,4 +1,9 @@
 "weeko_application_settings_application" = "แอปพลิเคชัน";
+"weeko_appearance_mode_title" = "รูปลักษณ์";
+"weeko_appearance_mode_subtitle" = "เลือกสไตล์ภาพของอินเทอร์เฟซแอป: ระบบ สว่าง หรือมืด";
+"weeko_appearance_mode_system" = "ระบบ";
+"weeko_appearance_mode_light" = "สว่าง";
+"weeko_appearance_mode_dark" = "มืด";
 "weeko_application_settings_open_at_login" = "เปิดเมื่อเข้าสู่ระบบ";
 "weeko_application_settings_open_at_login_subtitle" = "เริ่มอัตโนมัติหลังลงชื่อเข้าใช้ และพร้อมใช้งานจากแถบเมนู";
 "weeko_application_settings_show_dock_icon" = "แสดงไอคอน Dock";

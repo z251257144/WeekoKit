@@ -1,4 +1,9 @@
 "weeko_application_settings_application" = "Aplikace";
+"weeko_appearance_mode_title" = "Vzhled";
+"weeko_appearance_mode_subtitle" = "Zvolte vizuální styl rozhraní aplikace: systémový, světlý nebo tmavý.";
+"weeko_appearance_mode_system" = "Systémový";
+"weeko_appearance_mode_light" = "Světlý";
+"weeko_appearance_mode_dark" = "Tmavý";
 "weeko_application_settings_open_at_login" = "Otevřít při přihlášení";
 "weeko_application_settings_open_at_login_subtitle" = "Po přihlášení se automaticky spustí a zůstane připravená na liště nabídek.";
 "weeko_application_settings_show_dock_icon" = "Zobrazit ikonu Docku";

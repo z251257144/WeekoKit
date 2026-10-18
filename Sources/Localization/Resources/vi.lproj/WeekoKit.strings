@@ -1,4 +1,9 @@
 "weeko_application_settings_application" = "Ứng dụng";
+"weeko_appearance_mode_title" = "Giao diện";
+"weeko_appearance_mode_subtitle" = "Chọn kiểu giao diện ứng dụng: hệ thống, sáng hoặc tối.";
+"weeko_appearance_mode_system" = "Hệ thống";
+"weeko_appearance_mode_light" = "Sáng";
+"weeko_appearance_mode_dark" = "Tối";
 "weeko_application_settings_open_at_login" = "Mở khi đăng nhập";
 "weeko_application_settings_open_at_login_subtitle" = "Tự động khởi động sau khi đăng nhập và luôn sẵn sàng trên thanh menu.";
 "weeko_application_settings_show_dock_icon" = "Hiển thị biểu tượng Dock";

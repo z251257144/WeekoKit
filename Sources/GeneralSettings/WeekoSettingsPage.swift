@@ -2,9 +2,11 @@ import SwiftUI
 
 public struct WeekoSettingsPage: View {
   @ObservedObject private var store: WeekoSettingsStore
+  @ObservedObject private var appearanceModeStore: WeekoAppearanceModeStore
 
-  public init(store: WeekoSettingsStore) {
+  public init(store: WeekoSettingsStore, appearanceModeStore: WeekoAppearanceModeStore) {
     _store = ObservedObject(wrappedValue: store)
+    _appearanceModeStore = ObservedObject(wrappedValue: appearanceModeStore)
   }
 
   public var body: some View {
@@ -12,6 +14,7 @@ public struct WeekoSettingsPage: View {
       WeekoGeneralSettingsSection(
         launchAtLoginStore: store.launchAtLoginSettingsStore,
         dockIconStore: store.dockIconSettingsStore,
+        appearanceModeStore: appearanceModeStore,
         applicationName: store.applicationName
       )
       WeekoLanguageSettingsSection(store: store.languageSettingsStore)

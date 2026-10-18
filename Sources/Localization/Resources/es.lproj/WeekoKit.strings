@@ -1,4 +1,9 @@
 "weeko_application_settings_application" = "Aplicación";
+"weeko_appearance_mode_title" = "Apariencia";
+"weeko_appearance_mode_subtitle" = "Elige el estilo visual de la interfaz: sistema, claro u oscuro.";
+"weeko_appearance_mode_system" = "Sistema";
+"weeko_appearance_mode_light" = "Claro";
+"weeko_appearance_mode_dark" = "Oscuro";
 "weeko_application_settings_open_at_login" = "Abrir al iniciar sesión";
 "weeko_application_settings_open_at_login_subtitle" = "Se abre automáticamente al iniciar sesión y queda lista en la barra de menús.";
 "weeko_application_settings_show_dock_icon" = "Mostrar icono en el Dock";

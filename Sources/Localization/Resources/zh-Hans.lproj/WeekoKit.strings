@@ -1,4 +1,9 @@
 "weeko_application_settings_application" = "应用";
+"weeko_appearance_mode_title" = "外观";
+"weeko_appearance_mode_subtitle" = "选择应用的视觉风格——跟随系统、浅色或深色。";
+"weeko_appearance_mode_system" = "跟随系统";
+"weeko_appearance_mode_light" = "浅色";
+"weeko_appearance_mode_dark" = "深色";
 "weeko_application_settings_open_at_login" = "登录时打开";
 "weeko_application_settings_open_at_login_subtitle" = "登录后自动启动，并在菜单栏中保持可用，方便快速使用。";
 "weeko_application_settings_show_dock_icon" = "显示 Dock 图标";

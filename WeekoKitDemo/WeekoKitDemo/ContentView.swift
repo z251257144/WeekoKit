@@ -8,6 +8,8 @@ struct ContentView: View {
   @ObservedObject private var screenRecordingCoordinator: WeekoPermissionCoordinator
   @ObservedObject private var microphoneCoordinator: WeekoPermissionCoordinator
   @ObservedObject private var notificationCoordinator: WeekoPermissionCoordinator
+  @StateObject private var appearanceModeStore = WeekoAppearanceModeStore()
+  @Environment(\.colorScheme) private var colorScheme
 
   private let theme = WeekoMacTheme(
     accentColor: Color(red: 0.08, green: 0.48, blue: 0.52),
@@ -41,9 +43,18 @@ struct ContentView: View {
       detail: detailPage
     )
     .weekoMacTheme(theme)
+    .weekoTheme(effectiveTheme)
     .frame(minWidth: 900, idealWidth: 940, minHeight: 680, idealHeight: 720)
     .ignoresSafeArea()
     .background(DemoWindowConfigurator())
+    .onAppear {
+      // Use AppKit as the single appearance source so .system clears the override.
+      appearanceModeStore.applyToApplication()
+    }
+  }
+
+  private var effectiveTheme: any WeekoTheme {
+    colorScheme == .dark ? WeekoDefaultDarkTheme() : WeekoDefaultLightTheme()
   }
 
   private var navigationGroups: [WeekoSettingsNavigationGroup<DemoPage>] {
@@ -121,6 +132,7 @@ struct ContentView: View {
       DemoTooltipPage()
     case .application:
       DemoSettingsPage()
+        .environmentObject(appearanceModeStore)
     case .permission:
       DemoPermissionPage(
         screenRecordingCoordinator: screenRecordingCoordinator,

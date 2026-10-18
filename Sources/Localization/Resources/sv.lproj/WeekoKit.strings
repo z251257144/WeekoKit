@@ -133,3 +133,11 @@
 "subscription.feedback.restore_failed" = "Köp kunde inte återställas. Försök igen senare.";
 "subscription.legal.terms" = "Användarvillkor";
 "subscription.legal.privacy" = "Sekretesspolicy";
+
+/* Appearance Mode */
+"weeko_appearance_mode_title" = "Utseende";
+"weeko_appearance_mode_subtitle" = "Bestämmer gränssnittets visuella stil. Du kan följa systeminställningarna eller välja mellan ljust och mörkt läge.";
+"weeko_appearance_mode_system" = "Följ system";
+"weeko_appearance_mode_light" = "Ljust";
+"weeko_appearance_mode_dark" = "Mörkt";
+

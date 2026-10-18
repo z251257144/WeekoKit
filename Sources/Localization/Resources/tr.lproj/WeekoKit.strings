@@ -1,4 +1,9 @@
 "weeko_application_settings_application" = "Uygulama";
+"weeko_appearance_mode_title" = "Görünüm";
+"weeko_appearance_mode_subtitle" = "Uygulama arayüzü için görsel stili seçin: sistem, açık veya koyu.";
+"weeko_appearance_mode_system" = "Sistem";
+"weeko_appearance_mode_light" = "Açık";
+"weeko_appearance_mode_dark" = "Koyu";
 "weeko_application_settings_open_at_login" = "Girişte aç";
 "weeko_application_settings_open_at_login_subtitle" = "Oturum açtıktan sonra otomatik başlar ve menü çubuğunda hazır olur.";
 "weeko_application_settings_show_dock_icon" = "Dock Simgesini Göster";

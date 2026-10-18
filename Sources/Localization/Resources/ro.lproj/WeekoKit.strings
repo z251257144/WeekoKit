@@ -1,4 +1,9 @@
 "weeko_application_settings_application" = "Aplicație";
+"weeko_appearance_mode_title" = "Aspect";
+"weeko_appearance_mode_subtitle" = "Alegeți stilul vizual al interfeței aplicației: sistem, deschis sau întunecat.";
+"weeko_appearance_mode_system" = "Sistem";
+"weeko_appearance_mode_light" = "Deschis";
+"weeko_appearance_mode_dark" = "Întunecat";
 "weeko_application_settings_open_at_login" = "Deschidere la autentificare";
 "weeko_application_settings_open_at_login_subtitle" = "Pornește automat după autentificare și rămâne pregătită în bara de meniu.";
 "weeko_application_settings_show_dock_icon" = "Afișați pictograma Dock";

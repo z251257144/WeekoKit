@@ -1,4 +1,9 @@
 "weeko_application_settings_application" = "Program";
+"weeko_appearance_mode_title" = "Udseende";
+"weeko_appearance_mode_subtitle" = "Vælg den visuelle stil for app-grænsefladen: system, lys eller mørk.";
+"weeko_appearance_mode_system" = "System";
+"weeko_appearance_mode_light" = "Lys";
+"weeko_appearance_mode_dark" = "Mørk";
 "weeko_application_settings_open_at_login" = "Åbn ved login";
 "weeko_application_settings_open_at_login_subtitle" = "Starter automatisk efter login og er klar i menulinjen.";
 "weeko_application_settings_show_dock_icon" = "Vis Dock-ikon";

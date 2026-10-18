@@ -133,3 +133,11 @@
 "subscription.feedback.restore_failed" = "Nie udało się przywrócić zakupów. Spróbuj ponownie później.";
 "subscription.legal.terms" = "Warunki użytkowania";
 "subscription.legal.privacy" = "Polityka prywatności";
+
+/* Appearance Mode */
+"weeko_appearance_mode_title" = "Wygląd";
+"weeko_appearance_mode_subtitle" = "Określa styl wizualny interfejsu. Możesz podążać za ustawieniami systemowymi lub wybrać tryb jasny albo ciemny.";
+"weeko_appearance_mode_system" = "Podążaj za systemem";
+"weeko_appearance_mode_light" = "Jasny";
+"weeko_appearance_mode_dark" = "Ciemny";
+

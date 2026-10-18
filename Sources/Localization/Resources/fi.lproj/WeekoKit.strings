@@ -1,4 +1,9 @@
 "weeko_application_settings_application" = "Sovellus";
+"weeko_appearance_mode_title" = "Ulkoasu";
+"weeko_appearance_mode_subtitle" = "Valitse sovelluksen käyttöliittymän visuaalinen tyyli: järjestelmä, vaalea tai tumma.";
+"weeko_appearance_mode_system" = "Järjestelmä";
+"weeko_appearance_mode_light" = "Vaalea";
+"weeko_appearance_mode_dark" = "Tumma";
 "weeko_application_settings_open_at_login" = "Avaa kirjautumalla";
 "weeko_application_settings_open_at_login_subtitle" = "Käynnistyy automaattisesti sisäänkirjautumisen jälkeen ja on valmiina valikkopalkissa.";
 "weeko_application_settings_show_dock_icon" = "Näytä Dock-kuvake";

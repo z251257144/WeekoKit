@@ -85,6 +85,7 @@ public struct WeekoSettingsShell<ID: Hashable, Accessory: View, Detail: View>: V
 
           Spacer(minLength: 48)
         }
+        .windowDraggable()  // 允许通过标题栏拖动窗口
         .padding(.horizontal, 24)
         .padding(.top, 24)
         .padding(.bottom, 10)
@@ -98,7 +99,7 @@ public struct WeekoSettingsShell<ID: Hashable, Accessory: View, Detail: View>: V
     .frame(maxWidth: .infinity, maxHeight: .infinity)
   }
 
-  private var closeButton: some View {
+    private var closeButton: some View {
     Button(action: onClose) {
       Image(systemName: "xmark")
         .font(.system(size: 12, weight: .bold))
@@ -151,6 +152,7 @@ public struct WeekoSettingsFormPage<Content: View>: View {
     }
     .formStyle(.grouped)
     .scrollContentBackground(.hidden)
+    .padding(.top, 12)
     .padding(.horizontal, 12)
     .padding(.bottom, 10)
   }
@@ -171,5 +173,35 @@ public struct WeekoSettingsScrollPage<Content: View>: View {
       .padding(24)
       .frame(maxWidth: .infinity, alignment: .leading)
     }
+  }
+}// 在 WeekoSettingsShell.swift 末尾添加
+// MARK: - Window Drag Support
+
+/// 支持窗口拖动的视图包装器
+private struct WindowDraggableView<Content: View>: View {
+  let content: Content
+  
+  var body: some View {
+    content
+      .background(WindowDragHelper())
+  }
+}
+
+/// NSView 辅助类，让区域支持窗口拖动
+private struct WindowDragHelper: NSViewRepresentable {
+  func makeNSView(context: Context) -> DragEnabledView {
+    DragEnabledView()
+  }
+  
+  func updateNSView(_ nsView: DragEnabledView, context: Context) {}
+}
+
+private final class DragEnabledView: NSView {
+  override var mouseDownCanMoveWindow: Bool { true }
+}
+
+extension View {
+  func windowDraggable() -> some View {
+    WindowDraggableView(content: self)
   }
 }

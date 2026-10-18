@@ -1,4 +1,9 @@
 "weeko_application_settings_application" = "アプリケーション";
+"weeko_appearance_mode_title" = "外観";
+"weeko_appearance_mode_subtitle" = "アプリのビジュアルスタイルを選択：システム、ライト、ダーク。";
+"weeko_appearance_mode_system" = "システム";
+"weeko_appearance_mode_light" = "ライト";
+"weeko_appearance_mode_dark" = "ダーク";
 "weeko_application_settings_open_at_login" = "ログイン時に開く";
 "weeko_application_settings_open_at_login_subtitle" = "ログイン後に自動で起動し、メニューバーですぐに使えます。";
 "weeko_application_settings_show_dock_icon" = "Dockアイコンを表示";

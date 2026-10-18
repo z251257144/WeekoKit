@@ -1,4 +1,9 @@
 "weeko_application_settings_application" = "Aplikasi";
+"weeko_appearance_mode_title" = "Tampilan";
+"weeko_appearance_mode_subtitle" = "Pilih gaya visual antarmuka aplikasi: sistem, terang, atau gelap.";
+"weeko_appearance_mode_system" = "Sistem";
+"weeko_appearance_mode_light" = "Terang";
+"weeko_appearance_mode_dark" = "Gelap";
 "weeko_application_settings_open_at_login" = "Buka saat masuk";
 "weeko_application_settings_open_at_login_subtitle" = "Mulai otomatis setelah masuk dan tetap siap di bilah menu.";
 "weeko_application_settings_show_dock_icon" = "Tampilkan ikon Dock";
